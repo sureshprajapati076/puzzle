@@ -1,0 +1,12 @@
+.block{
+    background-color: azure;
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+    text-align: center;
+   cursor: pointer;
+}
+.container{
+    width: 650px;
+    margin: 0 auto;
+}
