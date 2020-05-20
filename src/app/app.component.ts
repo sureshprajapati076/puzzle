@@ -8,9 +8,9 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'puzzle';
 
-  arr = [0, 1, 2, 3, 4, 5, 6, 7, 8];
+  correct = [0, 1, 2, 3, 4, 5, 6, 7, 8];
 
-  correct = [0, 8, 4, 5, 6, 3, 7, 2, 1];
+  arr = [0, 8, 4, 5, 6, 3, 7, 2, 1];
   showHiddenBlock = false;
   swap(i: number, j: number) {
     let k: number = this.arr[i];
