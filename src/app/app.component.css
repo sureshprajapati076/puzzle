@@ -7,6 +7,16 @@
    cursor: pointer;
 }
 .container{
-    width: 650px;
+    width: 645px;
     margin: 0 auto;
 }
+
+@media screen and (max-width: 480px) {
+     .block {
+     height: 100px;
+     width: 100px;
+    }
+    .container{
+        width:330px;
+    }
+  }
