@@ -1,7 +1,7 @@
 .block{
     background-color: azure;
-    height: 200px;
-    width: 200px;
+    height: 230px;
+    width: 190px;
     display: inline-block;
     text-align: center;
    cursor: pointer;
@@ -14,7 +14,7 @@
 @media screen and (max-width: 480px) {
      .block {
      height: 100px;
-     width: 100px;
+     width: 80px;
     }
     .container{
         width:330px;
